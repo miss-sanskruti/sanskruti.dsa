@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
     int st[100];
     int top = -1;
@@ -9,7 +8,7 @@ int main() {
     printf("Enter stack size:");
     scanf("%d", &size);
 
-    printf("Enter number of elements in stack:");
+    printf("Enter no of elements in stack:");
     scanf("%d", &n);
 
     for (i = 0; i < n; i++)
@@ -115,4 +114,5 @@ int main() {
         }
     } while (ch!=6);
     return 0;
+
 }
